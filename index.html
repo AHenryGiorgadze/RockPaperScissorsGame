@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-div">
+        <img src="./images/logo.svg" alt="" />
+        <div>
+          <h4>score</h4>
+          <h1>0</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div id="GameResult">
+          <h2 id="GameResult-text">You Lose</h2>
+          <button id="GameRestartButton">Play Again</button>
+        </div>
+        <img id="Triangle" src="./images/bg-triangle.svg" alt="" />
+        <button onclick="OnButtonClick(1)" class="mButton" id="Button-1">
+          <div>
+            <img src="./images/icon-paper.svg" alt="" />
+          </div>
+        </button>
+        <button onclick="OnButtonClick(2)" class="mButton" id="Button-2">
+          <div>
+            <img src="./images/icon-scissors.svg" alt="" />
+          </div>
+        </button>
+        <button onclick="OnButtonClick(3)" class="mButton" id="Button-3">
+          <div>
+            <img src="./images/icon-rock.svg" alt="" />
+          </div>
+        </button>
+        <button class="mButton" id="Button-4">
+          <div>
+            <img id="Button-4-img" src="./images/icon-paper.svg" />
+          </div>
+        </button>
+      </div>
+    </main>
+    <!--
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  -->
+    <script src="./index.js"></script>
+  </body>
+</html>

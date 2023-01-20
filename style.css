@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  background-color: rgb(46, 46, 90);
+}
+
+body header {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+body header .header-div {
+  border: solid 2px rgb(147, 137, 165);
+  border-radius: 10px;
+  height: 120px;
+  width: 600px;
+}
+
+body header .header-div img {
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+}
+
+body header .header-div div {
+  float: right;
+  text-align: center;
+  margin-top: 15px;
+  background-color: white;
+  margin-right: 20px;
+  width: 110px;
+  border-radius: 10px;
+}
+
+body header div h4 {
+  font-size: 20px;
+  color: rgb(59, 59, 192);
+  padding-top: 15px;
+}
+
+body header div h1 {
+  color: rgb(66, 66, 66);
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+body main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+body main #GameResult {
+  text-align: center;
+  transform: scale(0, 0);
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+
+body main #GameResult h2 {
+  font-size: 40px;
+  color: white;
+}
+
+body main #GameResult button {
+  font-size: 18px;
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0px 7px rgb(194, 194, 194);
+  height: 40px;
+  width: 180px;
+  border-color: transparent;
+  border-radius: 20px;
+  color: rgb(255, 49, 49);
+}
+
+body main .content {
+  width: 400px;
+}
+
+body main .content #Triangle {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+body main .content .mButton {
+  position: absolute;
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  border: none;
+}
+
+body main .content .mButton div {
+  margin-left: 20px;
+  border-radius: 1000px;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(238, 238, 238);
+}
+
+body main .content .mButton img {
+  margin-top: 30px;
+}
+
+body main .content #Button-1 {
+  background-color: rgb(70, 181, 255);
+  box-shadow: 0px 7px rgb(47, 124, 175);
+}
+
+body main .content #Button-2 {
+  margin-left: 230px;
+  background-color: rgb(255, 181, 70);
+  box-shadow: 0px 7px rgb(192, 137, 54);
+}
+
+body main .content #Button-3 {
+  margin-top: 180px;
+  margin-left: 120px;
+  background-color: rgb(255, 70, 70);
+  box-shadow: 0px 7px rgb(182, 52, 52);
+}
+
+body main .content #Button-4 {
+  margin-top: 80px;
+  margin-left: 350px;
+  background-color: rgb(70, 181, 255);
+  box-shadow: 0px 7px rgb(47, 124, 175);
+  transform: scale(0, 0);
+}
+
+@media screen and (max-width: 600px) {
+  body header img {
+    margin-top: 30px;
+    height: 60px;
+  }
+
+  body header div {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 110px;
+    border-radius: 10px;
+  }
+
+  body header div h4 {
+    font-size: 15px;
+    color: rgb(59, 59, 192);
+    padding-top: 15px;
+  }
+
+  body header div h1 {
+    color: rgb(66, 66, 66);
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+
+  body main {
+    margin-top: 20px;
+  }
+
+  body main #GameResult {
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 15%;
+  }
+
+  body main #GameResult h2 {
+  }
+
+  body main #GameResult button {
+    height: 60px;
+    width: 250px;
+    font-size: 22px;
+  }
+
+  body main .content .mButton {
+    height: 140px;
+    width: 140px;
+  }
+
+  body main .content .mButton div {
+    height: 100px;
+    width: 100px;
+  }
+  body main .content .mButton img {
+    margin-top: 25px;
+    height: 50px;
+  }
+
+  body main .content #Button-4 {
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+}
